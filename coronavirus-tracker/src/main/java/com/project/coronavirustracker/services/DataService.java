@@ -1,15 +1,13 @@
-package io.javabrains.coronavirustracker.services;
+package com.project.coronavirustracker.services;
 
-import io.javabrains.coronavirustracker.models.LocationStats;
+import com.project.coronavirustracker.models.LocationStats;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 import java.io.StringReader;
 import java.net.URI;
 import java.net.http.HttpClient;

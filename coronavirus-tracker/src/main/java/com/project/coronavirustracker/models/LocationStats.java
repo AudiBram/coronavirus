@@ -1,4 +1,4 @@
-package io.javabrains.coronavirustracker.models;
+package com.project.coronavirustracker.models;
 
 import lombok.Data;
 import lombok.ToString;
